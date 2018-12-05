@@ -1,3 +1,24 @@
 @charset "utf-8";
 @import url(./../reset.css);
 @import url(./../styles.css);
+
+/* Body Styles */
+div.column {
+  width: 50%;
+  display: inline;
+  float: left;
+}
+footer {
+  clear: both;
+}
+img {
+  display: block;
+}
+div#image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 15px solid #F69DC6;
+}
