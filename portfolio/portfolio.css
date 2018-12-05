@@ -4,20 +4,30 @@
 
 /* Body Styles */
 div.column {
-  width: 50%;
   display: inline;
   float: left;
+}
+div.column#websites {
+  width: 70%;
+}
+div.column#image {
+  width: 30%;
 }
 footer {
   clear: both;
 }
 img {
   display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 div#image img {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
   margin-top: 10%;
   margin-bottom: 10%;
   border: 15px solid #F69DC6;
