@@ -9,9 +9,12 @@ div.column {
 }
 div.column#websites {
   width: 50%;
+  padding-right: 3%;
 }
 div.column#image {
   width: 50%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 footer {
   clear: both;
@@ -19,25 +22,23 @@ footer {
 img {
   display: block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-div img {
+  margin: auto;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
   border: 15px solid #F69DC6;
 }
+
 img#selfie {
   width: 60%;
 }
-div.column:nth-last-of-type(2) img:not(#selfie){
-  margin-top: 12%;
+div.column:nth-last-of-type(1) img {
+  margin-bottom: 5.62%;
+  margin-top: 1%;
 }
 a img:hover {
   border-color: #FACEE2;
+}
+div.column:nth-last-of-type(2) img {
+  margin-top: 6%;
+  width: 100%;
+  margin-bottom: 2%;
 }
