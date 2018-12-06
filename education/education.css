@@ -61,3 +61,10 @@ footer {
   color: #1D1622;
   font-weight: bold;
 }
+a {
+  text-decoration: none;
+  color: #F69DC6;
+}
+a:hover {
+  color: #1D1622;
+}
