@@ -8,10 +8,10 @@ div.column {
   float: left;
 }
 div.column#websites {
-  width: 70%;
+  width: 50%;
 }
 div.column#image {
-  width: 30%;
+  width: 50%;
 }
 footer {
   clear: both;
@@ -24,11 +24,20 @@ img {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-div#image img {
+
+div img {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  margin-top: 10%;
-  margin-bottom: 10%;
   border: 15px solid #F69DC6;
+}
+img#selfie {
+  width: 60%;
+}
+div.column:nth-last-of-type(2) img:not(#selfie){
+  margin-top: 12%;
+}
+a img:hover {
+  border-color: #FACEE2;
 }

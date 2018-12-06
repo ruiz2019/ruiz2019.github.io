@@ -27,6 +27,11 @@ div#header {
   text-align: center;
   padding-top: 1%;
 }
+li {
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
 
 /* Body Styles */
 body {
