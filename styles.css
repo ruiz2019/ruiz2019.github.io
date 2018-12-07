@@ -59,6 +59,10 @@ h3 {
   font-size: 2em;
   padding-left: 2%;
 }
+section {
+  text-align: center;
+  margin-bottom: 2%;
+}
 
 
 /* Footer Styles */
@@ -67,6 +71,7 @@ footer {
   padding-top: 3%;
   margin-top: 5.2%;
   background-color: #F69DC6;
+  clear: both;
 }
 footer li {
   display: inline;
