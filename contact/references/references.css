@@ -1,1 +1,55 @@
- 
+@charset "UTF-8";
+
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  width: 50%;
+  border: 30px solid white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+p {
+  font-weight: bold;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+}
+
+tr:first-of-type td:first-of-type {
+  background-color: #FDEBF3;
+}
+tr:first-of-type td:first-of-type p {
+  color: #1D1622;
+}
+tr:first-of-type td:first-of-type a {
+  color: #F694C1;
+}
+
+tr:last-of-type td:last-of-type {
+  background-color: #FDEBF3;
+}
+tr:last-of-type td:last-of-type p {
+  color: #1D1622;
+}
+
+
+tr:first-of-type td:last-of-type {
+  background-color: #1D1622;
+}
+tr:first-of-type td:last-of-type p {
+  color: #F694C1;
+}
+tr:first-of-type td:last-of-type a {
+}
+
+
+tr:last-of-type td:first-of-type {
+  background-color: #1D1622;
+}
+tr:last-of-type td:first-of-type p {
+  color: #F694C1;
+}
