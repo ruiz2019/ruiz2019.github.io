@@ -28,8 +28,17 @@ div#header {
   padding-top: 1%;
 }
 li {
-  margin-bottom: 2%;
   margin-top: 1%;
+}
+#sticky {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  margin: 0px;
+  background-color: white;
+}
+section {
+  margin-top: 10%;
 }
 
 
