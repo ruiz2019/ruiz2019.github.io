@@ -2,27 +2,20 @@
 @import url(./../reset.css);
 @import url(./../styles.css);
 
-/* Column Styles */
-div#grid {
+/* Table Styles */
+table {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-
 }
-div.column {
-  float: left;
-  width: 40%;
-  text-align: center;
-  background-color: #FDEBF3;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  margin-left: 5%;
-  margin-right:5%;
-  margin-bottom: 5.5%;
-  font-size: 1.28em;
+td {
+    background-color: #FDEBF3;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: 20px solid white;
 }
-div.column:nth-of-type(2) {
-  font-size: 1.6em;
+td:first-of-type {
+    width: 50%;
 }
 a {
   text-decoration: none;
@@ -30,4 +23,8 @@ a {
 }
 a:hover {
   color: gray;
+}
+p {
+    font-size: 1.8em;
+    font-weight: bold;
 }
