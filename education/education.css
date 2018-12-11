@@ -2,18 +2,19 @@
 @import url(../reset.css);
 @import url(../styles.css);
 
-<<<<<<< HEAD
+
 div#head {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-top: 10%;
-=======
+}
+
 table {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
->>>>>>> d5f909dcd099a19e9c5083b7a54ad6d1013e552c
+    margin-top: 2%;
 }
 td {
     padding-top: 10%;
