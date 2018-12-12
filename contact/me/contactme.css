@@ -2,30 +2,76 @@
 @import url(./../reset.css);
 @import url(./../styles.css);
 
-/* Table Styles */
-table {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+@media only screen and (max-width: 640px){
+  td {
+    display: block;
+    border: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    min-height: 100%;
+    margin-bottom: 5%;
+  }
+  footer li {
+    display: inline;
+    width: 50%;
+  }
+  footer {
+    background-color: #F694C1;
+    padding-bottom: 2%;
+    clear: both;
+  }
+  footer nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  footer ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  table a {
+    color: #F694C1;
+    text-decoration: none;
+  }
 }
-td {
+
+/* Desktop Styles */
+@media only screen and (min-width: 641px){
+  /* Table Styles */
+  table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: 0;
+    border-collapse: collapse;
+  }
+  td {
     background-color: #FDEBF3;
     padding-top: 10%;
     padding-bottom: 10%;
-    border: 20px solid white;
-}
-td:first-of-type {
-    width: 50%;
-}
-a {
-  text-decoration: none;
-  color: #F694C1;
-}
-a:hover {
-  color: gray;
-}
-p {
-    font-size: 2.5em;
-    font-weight: normal;
-    line-height: 1em;
+    border: 30px solid white;
+  }
+  td:first-of-type {
+      width: 50%;
+  }
+  a {
+    text-decoration: none;
+    color: #F694C1;
+  }
+  a:hover {
+    color: gray;
+  }
+  p {
+      font-size: 2.5em;
+      font-weight: normal;
+      line-height: 1em;
+  }
 }

@@ -23,7 +23,7 @@
     margin-bottom: 3%;
   }
 
-  div.desktop {
+  .desktop {
     display: none;
   }
   div#header {
@@ -43,7 +43,7 @@
     padding-left: 2%;
     white-space: nowrap;
   }
-  a {
+  nav a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #1D1622;
     font-size: 1.2em;
@@ -52,6 +52,27 @@
     background-color: #F694C1;
     padding-bottom: 1%;
     padding-top: 1%;
+  }
+  tr {
+    width: 100%;
+    text-align: center;
+  }
+  td {
+    background-color: #FDEBF3;
+    border-left: 20px solid white;
+    border-bottom: 20px solid white;
+    border-right: 20px solid white;
+    padding: 5%;
+  }
+  p {
+    font-family: 'Poiret One', cursive;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  footer li {
+    margin: 5%;
   }
 
 }
@@ -63,7 +84,7 @@
   ::-webkit-scrollbar {
     width: 10px;
   }
-  :not(header) ::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: #FACEE2;
   }
   ::-webkit-scrollbar-thumb {

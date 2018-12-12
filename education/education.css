@@ -5,6 +5,10 @@
 @media only screen and (max-width: 640px){
   a {
     color: #1D1622;
+    text-decoration: none;
+  }
+  td a {
+    color: #F694C1;
   }
   footer li {
     display: inline;
