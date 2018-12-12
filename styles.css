@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+:not(header) ::-webkit-scrollbar-track {
+  background: #FACEE2;
+}
+::-webkit-scrollbar-thumb {
+  background: #F69DC6;
+}
+
 /* Header Styles */
 
 nav#horizontal ul li {
