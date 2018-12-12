@@ -28,12 +28,21 @@ tr:first-of-type td:first-of-type p {
 tr:first-of-type td:first-of-type a {
   color: #F694C1;
 }
+tr:first-of-type td:first-of-type a:hover {
+  color: #F9BAD7;
+}
 
 tr:last-of-type td:last-of-type {
   background-color: #FDEBF3;
 }
 tr:last-of-type td:last-of-type p {
   color: #1D1622;
+}
+tr:last-of-type td:last-of-type a {
+  color: #F694C1;
+}
+tr:last-of-type td:last-of-type a:hover {
+  color: #F9BAD7;
 }
 
 
@@ -44,6 +53,10 @@ tr:first-of-type td:last-of-type p {
   color: #F694C1;
 }
 tr:first-of-type td:last-of-type a {
+  color: #FACEE2;
+}
+tr:first-of-type td:last-of-type a:hover {
+  color: white;
 }
 
 
@@ -52,4 +65,10 @@ tr:last-of-type td:first-of-type {
 }
 tr:last-of-type td:first-of-type p {
   color: #F694C1;
+}
+tr:last-of-type td:first-of-type a {
+  color: #FACEE2;
+}
+tr:last-of-type td:first-of-type a:hover {
+  color: white;
 }
