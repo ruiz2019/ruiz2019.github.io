@@ -8,19 +8,22 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 640px){
-
-  a#navicon:hover+nav, nav ul:hover{
-    display: block;
-  }
   nav {
-    display: none;
+    padding-top: 2%;
   }
-  #navicon img {
-    width: 10%;
-    padding: 0 2% 2% 2%;
+  nav .row1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  nav .row2 {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    margin-bottom: 3%;
   }
 
-  div#desktop {
+  div.desktop {
     display: none;
   }
   div#header {
@@ -31,22 +34,29 @@
     font-family: 'Sacramento', cursive;
     display: inline;
     font-size: 4em;
+    white-space: nowrap;
   }
   h3 {
     font-family: 'Ubuntu Condensed', sans-serif;
     display: inline;
     font-size: 2em;
     padding-left: 2%;
+    white-space: nowrap;
   }
-  nav {
-    clear: both;
+  a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #1D1622;
+    font-size: 1.2em;
   }
+  li {
+    background-color: #F694C1;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+
 }
 
 @media only screen and (min-width: 641px){
-  #navicon {
-    display: none;
-  }
 
   /* Scrollbar Styles */
 

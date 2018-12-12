@@ -2,52 +2,68 @@
 @import url(../reset.css);
 @import url(../styles.css);
 
-
-div#head {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 10%;
+@media only screen and (max-width: 640px){
+  a {
+    color: #1D1622;
+  }
+  footer li {
+    display: inline;
+    text-align: center;
+  }
+  footer nav {
+    text-align: center;
+    background-color: #F694C1;
+    padding-bottom: 2%;
+  }
 }
 
-table {
-    width: 60%;
+@media only screen and (min-width: 641px){
+  div#head {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
-}
-td {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    border-bottom: 50px solid white;
-}
-tr:first-of-type {
-    background-color: #FDEBF3;
-}
-tr:first-of-type p {
-    font-size: 2em;
-    padding-bottom: 5%;
-}
+    text-align: center;
+    margin-top: 10%;
+  }
 
-tr:nth-of-type(2) {
-    background-color: #1D1622;
-}
-tr:nth-of-type(2) p {
-    color: #F694C1;
-    font-size: 2em;
-    padding-bottom: 5%;
-}
-tr:nth-of-type(3) {
-    background-color: #FDEBF3;
-}
-tr:nth-of-type(3) p {
-    font-size: 2em;
-    padding-bottom: 5%;
-}
-a {
-  text-decoration: none;
-  color: #F69DC6;
-}
-a:hover {
-  color: #1D1622;
+  table {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+  }
+  td {
+      padding-top: 10%;
+      padding-bottom: 5%;
+      border-bottom: 50px solid white;
+  }
+  tr:first-of-type {
+      background-color: #FDEBF3;
+  }
+  tr:first-of-type p {
+      font-size: 2em;
+      padding-bottom: 5%;
+  }
+
+  tr:nth-of-type(2) {
+      background-color: #1D1622;
+  }
+  tr:nth-of-type(2) p {
+      color: #F694C1;
+      font-size: 2em;
+      padding-bottom: 5%;
+  }
+  tr:nth-of-type(3) {
+      background-color: #FDEBF3;
+  }
+  tr:nth-of-type(3) p {
+      font-size: 2em;
+      padding-bottom: 5%;
+  }
+  a {
+    text-decoration: none;
+    color: #F69DC6;
+  }
+  a:hover {
+    color: #1D1622;
+  }
 }
