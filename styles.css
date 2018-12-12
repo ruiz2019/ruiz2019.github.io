@@ -1,123 +1,169 @@
 @charset "utf-8";
 
-/* Scrollbar Styles */
+/*
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-:not(header) ::-webkit-scrollbar-track {
-  background: #FACEE2;
-}
-::-webkit-scrollbar-thumb {
-  background: #F69DC6;
-}
+  navicon source: http://chittagongit.com/icon/hamburger-menu-icon-transparent-21.html
 
-/* Header Styles */
+*/
 
-nav#horizontal ul li {
-  display: inline;
-  text-align: center;
-  float: left;
-  width: 14.28%;
-}
-nav#horizontal li {
-  background-color: #F69DC6;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-nav#horizontal a {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 1.6em;
-  border-right: 2px solid white;
-  padding-right: 5px;
-  color: #1D1622;
-}
-nav#horizontal a:hover {
-  color: white;
-}
-div#header {
-  text-align: center;
-  padding-top: 1%;
-}
-li {
-  margin-top: 1%;
-}
-#sticky {
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  margin: 0px;
-  background-color: white;
-}
-section {
-  margin-top: 10%;
+/* Mobile Styles */
+@media only screen and (max-width: 640px){
+
+  a#navicon:hover+nav, nav ul:hover{
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  #navicon img {
+    width: 10%;
+    padding: 0 2% 2% 2%;
+  }
+
+  div#desktop {
+    display: none;
+  }
+  div#header {
+    text-align: center;
+    padding-top: 2%;
+  }
+  h2 {
+    font-family: 'Sacramento', cursive;
+    display: inline;
+    font-size: 4em;
+  }
+  h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: inline;
+    font-size: 2em;
+    padding-left: 2%;
+  }
+  nav {
+    clear: both;
+  }
 }
 
+@media only screen and (min-width: 641px){
+  #navicon {
+    display: none;
+  }
 
-/* Body Styles */
-body {
-  background-color: white;
-}
-p {
-  font-family: 'Poiret One', cursive;
-  font-size: 1.5em;
-  color: #474253;
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-h2 {
-  font-family: 'Sacramento', cursive;
-  display: inline;
-  font-size: 5em;
-}
-h3 {
-  font-fabody {
-  background-color: white;
-}mily: 'Ubuntu Condensed', sans-serif;
-  display: inline;
-  font-size: 2em;
-  padding-left: 2%;
-}
-section {
-  text-align: center;
-  margin-bottom: 2%;
-}
+  /* Scrollbar Styles */
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  :not(header) ::-webkit-scrollbar-track {
+    background: #FACEE2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #F69DC6;
+  }
+
+  /* Header Styles */
+
+  nav#horizontal ul li {
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 14.28%;
+  }
+  nav#horizontal li {
+    background-color: #F69DC6;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  nav#horizontal a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.6em;
+    border-right: 2px solid white;
+    padding-right: 5px;
+    color: #1D1622;
+  }
+  nav#horizontal a:hover {
+    color: white;
+  }
+  div#header {
+    text-align: center;
+    padding-top: 1%;
+  }
+  li {
+    margin-top: 1%;
+  }
+  #sticky {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+    background-color: white;
+  }
+  section {
+    margin-top: 10%;
+  }
+
+  /* Body Styles */
+  body {
+    background-color: white;
+  }
+  p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    color: #474253;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-family: 'Sacramento', cursive;
+    display: inline;
+    font-size: 5em;
+  }
+  h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: inline;
+    font-size: 2em;
+    padding-left: 2%;
+  }
+  section {
+    text-align: center;
+    margin-bottom: 2%;
+  }
 
 
-/* Footer Styles */
+  /* Footer Styles */
 
-footer {
-  padding-top: 3%;
-  margin-top: 5.2%;
-  background-color: #F69DC6;
-  clear: both;
-}
-footer li {
-  display: inline;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-footer nav {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 2.9%;
-  text-align: center;
-}
-footer ul {
-  margin-left: auto;
-  margin-right: auto;
-}
-footer a {
-  font-family: 'Ubuntu Condensed', cursive;
-  font-weight: normal;
-  font-size: 1.4em;
-  color: #1D1622;
-}
-footer a:hover {
-  color: white;
+  footer {
+    padding-top: 3%;
+    margin-top: 5.2%;
+    background-color: #F69DC6;
+    clear: both;
+  }
+  footer li {
+    display: inline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  footer nav {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.9%;
+    text-align: center;
+  }
+  footer ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer a {
+    font-family: 'Ubuntu Condensed', cursive;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #1D1622;
+  }
+  footer a:hover {
+    color: white;
+  }
 }
