@@ -1,12 +1,49 @@
 @charset "utf-8";
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 10em;
-  text-align: center;
+
+/* Desktop Styles */
+@media only screen and (min-width: 641px){
+  h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 10em;
+    text-align: center;
+  }
+  div#splash {
+    background-color: #F69DC6;
+    margin: 8% 8% 4% 8%;
+    padding: 5%;
+    margin-top: 15%;
+    border: 30px double white;
+  }
 }
-div#splash {
-  background-color: #F69DC6;
-  margin: 8% 8% 4% 8%;
-  padding: 5%;
-  margin-top: 15%;
+
+/* Mobile Styles */
+@media only screen and (max-width: 640px){
+  #splash {
+    margin: 17% 5% 7% 5%;
+    background-color: #F694C1;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border: 30px double white;
+  }
+  h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 8em;
+    text-align: center;
+  }
+  p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-bottom: 10%;
+  }
+  footer li {
+    display: inline;
+    text-align: center;
+  }
+  footer nav {
+    text-align: center;
+    background-color: #F694C1;
+    padding-bottom: 2%;
+  }
 }

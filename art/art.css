@@ -2,37 +2,46 @@
 @import url(./../reset.css);
 @import url(./../styles.css);
 
-/* Body Styles */
-
-/* Column Styles */
-div.column {
-  float: left;
-  width: 30%;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 15px;
-  margin-bottom: 3%;
+@media only screen and (max-width: 640px){
+  img {
+    width: 80%;
+  }
+  span {
+    font-family: "Ubuntu Condensed", cursive;
+    font-style: italic;
+    min-width: 100%;
+  }
 }
-div.column img {
-  width: 100%;
-  border: 15px solid #F69DC6;
-  margin-bottom: 15px;
-
-}
-div.column:first-of-type {
-  margin-left: 4%;
-}
-span {
-  font-family: "Ubuntu Condensed", cursive;
-  font-style: italic;
-}
-img#allura {
-  margin-bottom: 1px;
-}
-img#kana {
-  margin-top: 2%;
-  margin-bottom: 1px;
-}
-img#elf {
-  margin-top: 40%;
+@media only screen and (min-width: 641px) {
+  /* Column Styles */
+  div.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15px;
+    margin-bottom: 3%;
+  }
+  div.column img {
+    width: 100%;
+    border: 15px solid #F69DC6;
+    margin-bottom: 15px;
+  }
+  div.column:first-of-type {
+    margin-left: 4%;
+  }
+  span {
+    font-family: "Ubuntu Condensed", cursive;
+    font-style: italic;
+  }
+  img#allura {
+    margin-bottom: 1px;
+  }
+  img#kana {
+    margin-top: 2%;
+    margin-bottom: 1px;
+  }
+  img#elf {
+    margin-top: 40%;
+  }
 }

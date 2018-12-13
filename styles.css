@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-/*
-
-  navicon source: http://chittagongit.com/icon/hamburger-menu-icon-transparent-21.html
-
-*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 640px){
@@ -49,7 +44,7 @@
     font-size: 1.2em;
   }
   li {
-    background-color: #F694C1;
+    background-color: #F69DC6;
     padding-bottom: 1%;
     padding-top: 1%;
   }
@@ -72,7 +67,15 @@
     font-size: 1.5em;
   }
   footer li {
-    margin: 5%;
+    display: inline;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  footer nav {
+    text-align: center;
+    background-color: #F69DC6;
+    padding-bottom: 2%;
   }
 
 }
