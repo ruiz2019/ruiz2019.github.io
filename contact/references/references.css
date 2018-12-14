@@ -66,6 +66,9 @@
   tr:last-of-type td:last-of-type a:hover {
     color: white;
   }
+  a {
+    text-decoration: none;
+  }
 
 /* Desktop Styles */
 @media only screen and (min-width: 641px) {

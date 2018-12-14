@@ -4,12 +4,32 @@
 
 @media only screen and (max-width: 640px){
   img {
-    width: 80%;
+    width: 100%;
+    margin-top: 10%;
+    border: 10px solid #F69DC6;
   }
-  span {
+  #girls {
+    margin-bottom: 10%;
+  }
+  .column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.caption {
     font-family: "Ubuntu Condensed", cursive;
     font-style: italic;
     width: 100%;
+    padding-top: 1%;
+    text-align: center;
+  }
+  p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 15%;
   }
 }
 @media only screen and (min-width: 641px) {
