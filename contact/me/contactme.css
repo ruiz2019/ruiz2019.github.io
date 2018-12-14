@@ -61,15 +61,16 @@
   td:first-of-type {
       width: 50%;
   }
-  a {
+   table a {
     text-decoration: none;
     color: #F694C1;
+    word-break: break-all;
   }
   a:hover {
     color: gray;
   }
   p {
-      font-size: 2.5em;
+      font-size: 2em;
       font-weight: bold;
       line-height: 1em;
   }
