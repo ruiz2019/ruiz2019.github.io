@@ -11,7 +11,6 @@
     margin-right: auto;
   }
   table {
-    min-height: 100%;
     margin-bottom: 5%;
   }
   footer li {
@@ -39,6 +38,7 @@
   table a {
     color: #F694C1;
     text-decoration: none;
+    word-break: break-all;
   }
 }
 
