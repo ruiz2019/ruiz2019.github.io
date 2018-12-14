@@ -8,7 +8,7 @@
     text-decoration: none;
   }
   td a {
-    color: #F694C1;
+    color: #F69DC6;
   }
   footer li {
     display: inline;
@@ -16,8 +16,11 @@
   }
   footer nav {
     text-align: center;
-    background-color: #F694C1;
+    background-color: #F69DC6;
     padding-bottom: 2%;
+  }
+  p {
+    font-family: 'Dosis', sans-serif;
   }
 }
 
@@ -69,5 +72,8 @@
   }
   a:hover {
     color: #1D1622;
+  }
+  p {
+    font-weight: bold;
   }
 }

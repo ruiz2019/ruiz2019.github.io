@@ -1,26 +1,11 @@
 @charset "utf-8";
 
-/* Desktop Styles */
-@media only screen and (min-width: 641px){
-  h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 10em;
-    text-align: center;
-  }
-  div#splash {
-    background-color: #F69DC6;
-    margin: 8% 8% 4% 8%;
-    padding: 5%;
-    margin-top: 15%;
-    border: 30px double white;
-  }
-}
 
 /* Mobile Styles */
 @media only screen and (max-width: 640px){
   #splash {
     margin: 17% 0% 7% 0%;
-    background-color: #F694C1;
+    background-color: #F69DC6;
     padding-top: 5%;
     padding-bottom: 3%;
     border: 20px double white;
@@ -34,8 +19,8 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-
     padding-bottom: 10%;
+    font-weight: lighter;
   }
   footer li {
     display: inline;
@@ -43,7 +28,27 @@
   }
   footer nav {
     text-align: center;
-    background-color: #F694C1;
+    background-color: #F69DC6;
     padding-bottom: 2%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 641px){
+  h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 10em;
+    text-align: center;
+  }
+  div#splash {
+    background-color: #F69DC6;
+    margin: 0% 8% 4% 8%;
+    padding: 5%;
+    margin-top: 12%;
+    border: 30px double white;
+  }
+  p {
+    font-size: 2em;
+    font-weight: bold;
   }
 }
