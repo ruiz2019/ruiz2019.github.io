@@ -19,21 +19,22 @@
 /* Mobile Styles */
 @media only screen and (max-width: 640px){
   #splash {
-    margin: 17% 5% 7% 5%;
+    margin: 17% 0% 7% 0%;
     background-color: #F694C1;
     padding-top: 5%;
     padding-bottom: 3%;
-    border: 30px double white;
+    border: 20px double white;
   }
   h1 {
     font-family: 'Sacramento', cursive;
-    font-size: 8em;
+    font-size: 5em;
     text-align: center;
   }
   p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+
     padding-bottom: 10%;
   }
   footer li {
