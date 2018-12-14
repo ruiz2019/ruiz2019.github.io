@@ -22,6 +22,9 @@
   p {
     font-family: 'Dosis', sans-serif;
   }
+  table {
+    padding-top: 5%;
+  }
 }
 
 @media only screen and (min-width: 641px){

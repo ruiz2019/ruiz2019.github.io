@@ -12,6 +12,7 @@
   }
   table {
     margin-bottom: 5%;
+    padding-top: 5%;
   }
   footer li {
     display: inline;
@@ -32,7 +33,6 @@
   }
   p {
     font-size: 2em;
-    line-height: 2em;
   }
   table a {
     color: #F694C1;
